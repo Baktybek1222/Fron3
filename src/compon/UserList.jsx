@@ -1,6 +1,10 @@
 import firebase from './firebase.js';  
 import React, { useEffect, useState } from 'react';  
 import './UserList.css'  
+import Header from './Header/Header.jsx';
+import Header2 from './Header2/Header2.jsx';
+import Div1 from './Div1/Div1.jsx';
+
  
   
 const UserList = () => {  
@@ -28,33 +32,10 @@ const UserList = () => {
         <div className='UsersList'>
             {data.map((elem, index) => (
                 <div className='UserList' key={index}>
-                    <header id='heder1'>
-                            
-                            <p id='x1'>Доставка и оплата</p>
-                            <p id='x2'>Пункты выдачи</p>
-                            <p id='x3'>Поддержка</p>
-                            <p id='x4'>+996771115059</p>
-                            
-                            </header> 
-                            <header id='heder2'> 
-                            <img src="https://static.insales-cdn.com/files/1/3373/16379181/original/Component_22.png" alt="" id='img1'/> 
-                            
-<div class="input-container">
-  <input class="effect-1" type="text" placeholder="Поиск"/>
-  <span class="focus-border"></span>
-</div>
-                            <p id='z1'>Профиль</p> 
-                            <p id='z1'>Сравнение</p> 
-                            <p id='z1'>Избранное</p> 
-                            <p id='z1'>Корзина</p> 
-                            </header> 
-                            <div id='div2'> 
-                            <p id='x1'>Смартфоны и планшеты</p> 
-                            <p id='x1'>Ноутбуки, планшеты и компьютеры</p>  
-                            <p id='x1'>Техника для дома</p>  
-                            <p id='x1'>Игры и развлечения</p>  
-                            </div> 
-                            <div id='diiv1'> 
+                    <Header/>
+                            <Header2/>
+                            <Div1/>
+                             <div id='diiv1'> 
                             
                             <img src = {elem.img} id='i1'/> 
                             
@@ -67,7 +48,8 @@ const UserList = () => {
                             <img src={elem.img6} id='i6'/> 
                             <img src={elem.img7} id='i7'/>  
                             
-                            </div> 
+                            </div>  
+                           
                             <p id='p1'>Смартфоны и планшеты</p> 
                             <div id='div1'>             
                             <p>{elem.name}</p>   
