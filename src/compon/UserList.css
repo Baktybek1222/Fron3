@@ -1,0 +1,298 @@
+body{ 
+    background-color: #f7f7f7; 
+} 
+#heder1{ 
+    display: flex; 
+    justify-content: space-around; 
+    font-family: cursive; 
+    background-color: transparent; 
+    background-color: white; 
+} 
+p{
+border-radius: 4px;
+padding: 0 15px;
+cursor: pointer;
+font-size:14px;
+transition: all 0.2s ease-in-out;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+p:hover{ 
+    transform: scale(1.1);
+    color: rgb(2, 167, 7); 
+    
+     
+} 
+#x1{
+    width: 200px;
+}
+#heder2{ 
+    display: flex; 
+    justify-content: space-around; 
+    font-family: cursive; 
+    background-color: transparent; 
+} 
+#img1 { 
+width: 100px; 
+
+} 
+input[type="text"]{
+    
+    width: 800px;
+    height: 50px;
+    letter-spacing: 1px;
+    background-color: #f7f7f7;
+    border: none;
+    
+    } 
+    .effect-1~.focus-border{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #3399FF;
+        transition: 0.4s;
+        }
+        .effect-1:focus~.focus-border {
+          
+            transition: 0.4s;
+            }
+            :focus{
+                outline: none;
+                }
+#z1:hover{ 
+    color: rgb(2, 167, 7); 
+} 
+#div2{ 
+    display: flex; 
+    justify-content: space-around; 
+    font-family: cursive; 
+    background-color: white; 
+ 
+} 
+#i1{ 
+    position: relative; 
+} 
+#i2{ 
+    position: relative; 
+    top: -130px; 
+} 
+#i3{ 
+    position: relative; 
+    top: -6px; 
+    left: -250px; 
+} 
+#i4{ 
+    position: relative; 
+    top: -130px; 
+    left: -215px; 
+} 
+#i5{ 
+    position: relative; 
+    top: -175px; 
+    left: 850px; 
+} 
+#i6{ 
+    position: relative; 
+    top: -175px; 
+    left: 850px; 
+} 
+#i7{ 
+    position: relative; 
+    top: -310px; 
+    left: 589px; 
+}
+#vv1{
+    width: 100px;
+} 
+#vv2{
+    
+    width: 100px;
+}
+#vv3{
+    width: 100px;
+}
+#vv4{
+    width: 100px;
+}
+#vv5{
+    width: 100px;
+}
+#xx1{
+    display: flex;
+    justify-content: space-around;
+}
+#v1211{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: 0.5rem;
+}
+#p1{ 
+   position: relative;
+   left: 655px;
+    top: -160px;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: 0.5rem;
+    width: 200px;
+    
+}
+#p1:hover{
+    color: rgb(2, 167, 7);
+
+}
+#ll1{
+    position: relative;
+    left: 655px;
+     top: 1px;
+     display: block;
+     font-size: 1.4rem;
+     font-weight: 500;
+     white-space: nowrap;
+     margin-right: 0.5rem;
+     width: 200px;
+}
+#o1{
+    display: flex;
+    justify-content: space-around;
+    scroll-snap-type: x;
+}
+#o2{
+    position: relative;
+   left: 655px;
+    top: 40px;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: 0.5rem;
+    width: 200px;
+
+}
+#xx1{
+    margin-top: -60px;
+}
+#T2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    background-color: white;
+}
+#it1{
+    width: 150px;
+}
+#pt1{
+    width: 200px;
+}
+#ps1{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: 0.5rem;
+}
+#kk1{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: 0.5rem;
+    width: 100px;
+}
+#d11{
+    margin-top: -25px;
+    width: 100px;
+}
+li{
+    list-style-type: none; 
+}
+.footer-columns > section { min-width: 180px;
+
+}
+
+.footer-bottom {
+
+    text-align: center;
+
+    border-top: 1px solid var(--gray);
+    
+    margin-top: 48px;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    width: 100%;
+    
+    gap: 8px;
+    
+    padding: 16px 0px;
+    
+    flex-wrap: wrap;
+
+}
+
+
+.footer-bottom-links { 
+    margin-left: auto;
+     display:flex;
+    justify-content: center; 
+    flex-wrap: wrap; gap: 16px;
+
+}
+
+@media (max-width: 800px) { .footer-bottom-links { margin: 0 auto; }
+
+}
+
+.footer-bottom-links > a {
+
+color: white; text-decoration: none;
+
+}
+
+
+
+.footer-bottom-links > a:hover { text-decoration: underline;
+
+}
+
+.footer-bottom > small {
+
+font-size: 16px; margin: 0 4px;
+}
+#c11{
+position: relative;
+left: 400px;
+top:-470px;
+width: 100px;
+#px100{
+    width: 100px;
+}
+}
+#icn{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 25px;
+}
+@media screen and (min-width:767px) {
+    #diiv1{
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    
+}
